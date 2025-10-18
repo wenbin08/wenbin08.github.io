@@ -23,7 +23,7 @@ My research interests include Machine Learning and Artificial General Intelligen
 (* denotes the co-first authors)
 
 ### Conference Papers
-- **CookAnything: A Framework for Flexible and Consistent Multi-Step Recipe Image Generation.**
+- **CookAnything: A Framework for Flexible and Consistent Multi-Step Recipe Image Generation.**  
 Ruoxuan Zhang, **Bin Wen**, Hongxia Xie, Yi Yao, Songhan Zuo, Jian-Yu Jiang-Lin, Hong-Han Shuai, Wen-Huang Cheng.  
 *Proceedings of the ACM International Conference on Multimedia (<span style="color: #0366d6">ACMMM 2025</span>).*
 
@@ -35,10 +35,10 @@ Ruoxuan Zhang, Jidong Gao, **Bin Wen**, Hongxia Xie, Chenming Zhang, Hong-Han Sh
 Cheng Zhang, Hongxia Xie, **Bin Wen**, Songhan Zuo, Ruoxuan Zhang, Wen-Huang Cheng
 *Proceedings of the ACM International Conference on Multimedia (<span style="color: #0366d6">ACMMM2025 Dataset Track</span>).*
 
-### Journal Papers
+<!-- ### Journal Papers
 
 
-### Other Papers
+### Other Papers -->
 
 <!-- - **Step Back to Leap Forward: Self-Backtracking for Boosting Reasoning of Language Models.** [[PDF]](https://www.arxiv.org/pdf/2502.04404) [[Webpage]](assets/self-backtracking/index.html)  
 **Xiao-Wen Yang**, Xuan-Yi Zhu, Wen-Da Wei, Ding-Chu Zhang, Jie-Jing Shao, Zhi Zhou, Lan-Zhe Guo, Yu-Feng Li.  
@@ -47,7 +47,7 @@ Cheng Zhang, Hongxia Xie, **Bin Wen**, Songhan Zuo, Ruoxuan Zhang, Wen-Huang Che
 
 ## Honor
 - National Scholarship, 2024
-- Outstanding Student, Jilin University, 2022, 2023, 2024
+- Outstanding Student, Jilin University, 2023, 2024, 2025
 
 ## Academic Service
 <!-- Reviewer for:
