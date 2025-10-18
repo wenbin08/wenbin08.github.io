@@ -28,11 +28,11 @@ Ruoxuan Zhang, **Bin Wen**, Hongxia Xie, Yi Yao, Songhan Zuo, Jian-Yu Jiang-Lin,
 *Proceedings of the ACM International Conference on Multimedia (<span style="color: #0366d6">ACMMM 2025</span>).*
 
 - **RecipeGen: A Step-Aligned Multimodal Benchmark for Real-World Recipe Generation**  
-Ruoxuan Zhang, Jidong Gao, **Bin Wen**, Hongxia Xie, Chenming Zhang, Hong-Han Shuai, Wen-Huang Cheng
+Ruoxuan Zhang, Jidong Gao, **Bin Wen**, Hongxia Xie, Chenming Zhang, Hong-Han Shuai, Wen-Huang Cheng.  
 *Proceedings of the ACM International Conference on Multimedia (<span style="color: #0366d6">ACMMM2025 Dataset Track</span>).*
 
 - **EmoArt: A Multidimensional Dataset for Emotion-Aware Artistic Generation**  
-Cheng Zhang, Hongxia Xie, **Bin Wen**, Songhan Zuo, Ruoxuan Zhang, Wen-Huang Cheng
+Cheng Zhang, Hongxia Xie, **Bin Wen**, Songhan Zuo, Ruoxuan Zhang, Wen-Huang Cheng.  
 *Proceedings of the ACM International Conference on Multimedia (<span style="color: #0366d6">ACMMM2025 Dataset Track</span>).*
 
 <!-- ### Journal Papers
