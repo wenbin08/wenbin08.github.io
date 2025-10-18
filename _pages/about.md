@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Currently, I am a final-year undergraduate student at the College of Computer Science and Technology, Jilin University. I have been admitted to pursue a Ph.D. degree with the LAMDA-SZ Group at the School of Intelligence Science and Technology, Nanjing University, and the Shanghai Innovation Institute.
+Currently, I am a final-year undergraduate student at the College of Computer Science and Technology, [Jilin University](https://www.jlu.edu.cn/). I have been admitted to pursue a Ph.D. degree with the LAMDA-SZ Group at the School of Intelligence Science and Technology, [Nanjing University](https://www.nju.edu.cn/), and the [Shanghai Innovation Institute (SII)](https://www.sii.edu.cn/main.htm).
 
 ## Research Interests
 My research interests include Machine Learning and Artificial General Intelligence (AGI). Currently, I am focusing on the subfields:
