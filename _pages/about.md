@@ -7,13 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-Currently, I am a final-year undergraduate student at the College of Computer Science and Technology, [Jilin University](https://www.jlu.edu.cn/). I have been admitted to pursue a Ph.D. degree with the LAMDA-SZ Group at the School of Intelligence Science and Technology, [Nanjing University](https://www.nju.edu.cn/), and the [Shanghai Innovation Institute (SII)](https://www.sii.edu.cn/main.htm).
+I am currently a final-year undergraduate student at the College of Computer Science and Technology, [Jilin University](https://www.jlu.edu.cn/). I have been admitted to pursue a Ph.D. degree in School of Intelligence Science and Technology, [Nanjing University](https://www.nju.edu.cn/), in collaboration with the [Shanghai Innovation Institute (SII)](https://www.sii.edu.cn/main.htm). I am also a member of [LAMDA Group (机器学习与数据挖掘研究所)](https://www.lamda.nju.edu.cn/CH.MainPage.ashx), which is led by professor [Zhi-Hua Zhou (周志华)](https://cs.nju.edu.cn/zhouzh/).
+
 
 ## Research Interests
-My research interests include Machine Learning and Artificial General Intelligence (AGI). Currently, I am focusing on the subfields:
+Currently, I am focusing on:
 - **Embodied AI**
 
-## News
+<!-- ## News -->
 
 
 
