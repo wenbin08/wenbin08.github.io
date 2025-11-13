@@ -52,6 +52,7 @@ Cheng Zhang, Hongxia Xie, **Bin Wen**, Songhan Zuo, Ruoxuan Zhang, Wen-Huang Che
 
 ## Teaching
 - Teaching Assistant for Introduction to Artificial Intelligence, Jilin Univeristy, 2025
+
 <!-- ## Academic Service -->
 <!-- Reviewer for:
 - AAAI 2024, 2025
