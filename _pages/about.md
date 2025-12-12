@@ -51,6 +51,8 @@ Cheng Zhang, Hongxia Xie, **Bin Wen**, Songhan Zuo, Ruoxuan Zhang, Wen-Huang Che
 ## Honor
 - National Scholarship, 2024
 - Outstanding Student, Jilin University, 2023, 2024, 2025
+- Academic scholarship, Jilin University, 2023, 2025
+- Jie Fang Ling Hang Scholarship, Jilin University, 2024
 
 ## Teaching
 - Teaching Assistant for Introduction to Artificial Intelligence（人工智能导论）, Jilin Univeristy, 2025 Fall
@@ -62,5 +64,3 @@ Cheng Zhang, Hongxia Xie, **Bin Wen**, Songhan Zuo, Ruoxuan Zhang, Wen-Huang Che
 - ICML 2024, 2025
 - NeurIPS 2023, 2024
 - ACL Rolling Review 2024 -->
-
-<!-- Meta Reviewer for IJCAI 2025 -->
