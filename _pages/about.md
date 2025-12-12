@@ -51,7 +51,7 @@ Cheng Zhang, Hongxia Xie, **Bin Wen**, Songhan Zuo, Ruoxuan Zhang, Wen-Huang Che
 ## Honor
 - National Scholarship, 2024
 - Outstanding Student, Jilin University, 2023, 2024, 2025
-- Academic scholarship, Jilin University, 2023, 2025
+- Academic Scholarship, Jilin University, 2023, 2025
 - Jie Fang Ling Hang Scholarship, Jilin University, 2024
 
 ## Teaching
