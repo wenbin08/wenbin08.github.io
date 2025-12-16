@@ -1,6 +1,6 @@
 ---
 permalink: /my-stats/
-title: "访客统计 (仅自己可见)"
+title: "访客统计"
 author_profile: true
 sitemap: false
 ---
