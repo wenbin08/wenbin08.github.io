@@ -6,7 +6,7 @@ redirect_from:
   - /about.html
 ---
 
-# About me
+
 I am currently a final-year undergraduate student at the College of Computer Science and Technology, [Jilin University](https://www.jlu.edu.cn/), advised by Professor [Hongxia Xie](https://ccst.jlu.edu.cn/info/1359/18959.htm). I have been admitted to pursue a Ph.D. degree in School of Intelligence Science and Technology, [Nanjing University](https://www.nju.edu.cn/), advised by Professor [Lan-Zhe Guo](https://www.lamda.nju.edu.cn/guolz/), in collaboration with the [Shanghai Innovation Institute (SII)](https://www.sii.edu.cn/main.htm).
 
 <!-- I am a first-year Ph.D. student of School of Intelligence Science and Technology in [Nanjing University](https://www.nju.edu.cn/), advised by Professor [Lan-Zhe Guo](https://www.lamda.nju.edu.cn/guolz/), in collaboration with the [Shanghai Innovation Institute (SII)](https://www.sii.edu.cn/main.htm) and a member of [LAMDA Group](https://www.lamda.nju.edu.cn/), led by professor [Zhi-Hua Zhou](https://www.lamda.nju.edu.cn/zhouzh/).
