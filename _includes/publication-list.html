@@ -13,7 +13,9 @@
       {% for paper in group["items"] %}
         <article class="publication-card">
           <div class="publication-card__header">
-            <span class="publication-card__badge">{{ paper.venue_short }}</span>
+            {% if include.show_badge != false and paper.venue_short %}
+              <span class="publication-card__badge">{{ paper.venue_short }}</span>
+            {% endif %}
             <span class="publication-card__year">{{ paper.year }}</span>
           </div>
 

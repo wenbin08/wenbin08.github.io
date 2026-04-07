@@ -14,9 +14,9 @@
       venue_html: "<em>Proceedings of the ACM International Conference on Multimedia</em>."
     - title: "Design of UAV target detection network based on deep feature fusion and optimization with small targets in complex contexts"
       year: 2025
-      authors_html: "Jianzheng Liu*, Bin Wen*(co-first author), Jiayi Xiao, Minghui Sun"
+      authors_html: "Jianzheng Liu*, <strong>Bin Wen*(co-first author)</strong>, Jiayi Xiao, Minghui Sun"
       venue_html: "<em>Neurocomputing</em>."
     - title: "MindPower: Enabling Theory-of-Mind Reasoning in VLM-based Embodied Agents"
       year: 2025
-      authors_html: "Ruoxuan Zhang, Qiyun Zheng, Zhiyu Zhou, Ziqi Liao, Siyu Wu, Jian-Yu Jiang-Lin, Bin Wen, Hongxia Xie, Jianlong Fu, Wen-Huang Cheng"
+      authors_html: "Ruoxuan Zhang, Qiyun Zheng, Zhiyu Zhou, Ziqi Liao, Siyu Wu, Jian-Yu Jiang-Lin, <strong>Bin Wen</strong>, Hongxia Xie, Jianlong Fu, Wen-Huang Cheng"
       venue_html: "<em>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</em>."
