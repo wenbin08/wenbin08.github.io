@@ -5,38 +5,32 @@
 
   {% for group in site.data.publications %}
     <section class="publication-list__group">
-      <div class="publication-list__group-header">
-        <h3 class="publication-list__group-title">{{ group.title }}</h3>
-        <p class="publication-list__group-meta">{{ group["items"] | size }} papers</p>
-      </div>
-
-      {% for paper in group["items"] %}
-        <article class="publication-card">
-          <div class="publication-card__header">
-            {% if include.show_badge != false and paper.venue_short %}
-              <span class="publication-card__badge">{{ paper.venue_short }}</span>
+      <h2 class="publication-list__group-title">{{ group.title }}</h2>
+      <ul class="publication-list__items">
+        {% for paper in group["items"] %}
+          <li class="publication-item">
+            <div class="publication-item__title">{{ paper.title }}</div>
+            <div class="publication-item__authors">{{ paper.authors_html }}</div>
+            {% if paper.venue_line_html %}
+              <div class="publication-item__venue">{{ paper.venue_line_html }}</div>
+            {% elsif paper.venue_html %}
+              <div class="publication-item__venue">{{ paper.venue_html }} {{ paper.year }}.</div>
             {% endif %}
-            <span class="publication-card__year">{{ paper.year }}</span>
-          </div>
-
-          <h4 class="publication-card__title">{{ paper.title }}</h4>
-          <p class="publication-card__authors">{{ paper.authors_html }}</p>
-          <p class="publication-card__venue">
-            {{ paper.venue_html }}
-            {% if paper.note %}
-              <span class="publication-card__track">{{ paper.note }}</span>
+            {% if paper.meta_html or paper["links"] %}
+              <div class="publication-item__meta">
+                {% if paper.meta_html %}
+                  <span>{{ paper.meta_html }}</span>
+                {% endif %}
+                {% if paper["links"] %}
+                  {% for link in paper["links"] %}
+                    <a class="publication-item__link" href="{{ link.url }}">[{{ link.label }}]</a>
+                  {% endfor %}
+                {% endif %}
+              </div>
             {% endif %}
-          </p>
-
-          {% if paper["links"] %}
-            <div class="publication-card__links">
-              {% for link in paper["links"] %}
-                <a class="publication-card__link" href="{{ link.url }}">{{ link.label }}</a>
-              {% endfor %}
-            </div>
-          {% endif %}
-        </article>
-      {% endfor %}
+          </li>
+        {% endfor %}
+      </ul>
     </section>
   {% endfor %}
 </div>

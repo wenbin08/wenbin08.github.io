@@ -1,22 +1,39 @@
+# Optional fields for each paper:
+# venue_line_html: "In: Proceedings of the 40th AAAI Conference on Artificial Intelligence, 2026."
+# meta_html: "AAAI 2026. CCF-A."
+# links:
+#   - label: "Paper"
+#     url: "https://example.com/paper"
+
 - title: "Conference Papers"
   items:
     - title: "CookAnything: A Framework for Flexible and Consistent Multi-Step Recipe Image Generation"
       year: 2025
       authors_html: "Ruoxuan Zhang, <strong>Bin Wen</strong>, Hongxia Xie, Yi Yao, Songhan Zuo, Jian-Yu Jiang-Lin, Hong-Han Shuai, Wen-Huang Cheng"
       venue_html: "<em>Proceedings of the ACM International Conference on Multimedia</em>."
+      venue_line_html: "In: <em>Proceedings of the ACM International Conference on Multimedia</em>, 2025."
+      meta_html: "ACM MM 2025."
     - title: "RecipeGen: A Step-Aligned Multimodal Benchmark for Real-World Recipe Generation"
       year: 2025
       authors_html: "Ruoxuan Zhang, Jidong Gao, <strong>Bin Wen</strong>, Hongxia Xie, Chenming Zhang, Hong-Han Shuai, Wen-Huang Cheng"
       venue_html: "<em>Proceedings of the ACM International Conference on Multimedia</em>."
+      venue_line_html: "In: <em>Proceedings of the ACM International Conference on Multimedia</em>, 2025."
+      meta_html: "ACM MM 2025. Dataset Track."
     - title: "EmoArt: A Multidimensional Dataset for Emotion-Aware Artistic Generation"
       year: 2025
       authors_html: "Cheng Zhang, Hongxia Xie, <strong>Bin Wen</strong>, Songhan Zuo, Ruoxuan Zhang, Wen-Huang Cheng"
       venue_html: "<em>Proceedings of the ACM International Conference on Multimedia</em>."
+      venue_line_html: "In: <em>Proceedings of the ACM International Conference on Multimedia</em>, 2025."
+      meta_html: "ACM MM 2025. Dataset Track."
     - title: "Design of UAV target detection network based on deep feature fusion and optimization with small targets in complex contexts"
       year: 2025
-      authors_html: "Jianzheng Liu*, <strong>Bin Wen*(co-first author)</strong>, Jiayi Xiao, Minghui Sun"
+      authors_html: "Jianzheng Liu*, <strong>Bin Wen*</strong> (co-first author), Jiayi Xiao, Minghui Sun"
       venue_html: "<em>Neurocomputing</em>."
+      venue_line_html: "In: <em>Neurocomputing</em>, 2025."
+      meta_html: "Neurocomputing 2025."
     - title: "MindPower: Enabling Theory-of-Mind Reasoning in VLM-based Embodied Agents"
       year: 2025
       authors_html: "Ruoxuan Zhang, Qiyun Zheng, Zhiyu Zhou, Ziqi Liao, Siyu Wu, Jian-Yu Jiang-Lin, <strong>Bin Wen</strong>, Hongxia Xie, Jianlong Fu, Wen-Huang Cheng"
       venue_html: "<em>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</em>."
+      venue_line_html: "In: <em>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</em>, 2025."
+      meta_html: "CVPR 2025."
