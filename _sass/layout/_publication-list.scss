@@ -60,16 +60,21 @@
 }
 
 .publication-item__meta {
-  color: var(--global-text-color-light);
+  color: #c62828;
 }
 
 .publication-item__link {
   margin-left: 0.35rem;
+  color: #1d4ed8;
   text-decoration: none;
 }
 
+.publication-item__link:visited {
+  color: #1d4ed8;
+}
+
 .publication-item__link:hover {
-  color: var(--global-link-color-hover);
+  color: #1e40af;
   text-decoration: underline;
 }
 
