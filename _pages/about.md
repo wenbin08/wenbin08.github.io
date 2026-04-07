@@ -24,10 +24,7 @@ Currently, I am focusing on:
 
 ## Selected Works ([Publication List](/publications/))
 
-
-- **CookAnything: A Framework for Flexible and Consistent Multi-Step Recipe Image Generation.**  
-Ruoxuan Zhang, **Bin Wen**, Hongxia Xie, Yi Yao, Songhan Zuo, Jian-Yu Jiang-Lin, Hong-Han Shuai, Wen-Huang Cheng.  
-*Proceedings of the ACM International Conference on Multimedia (<span style="color: #0366d6">ACMMM2025</span>).*
+{% include publication-list.html data_file="selected_publications" %}
 
 
 

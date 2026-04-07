@@ -1,9 +1,14 @@
 <div class="publication-list">
+  {% assign publication_groups = site.data.publications %}
+  {% if include.data_file %}
+    {% assign publication_groups = site.data[include.data_file] %}
+  {% endif %}
+
   {% if include.note %}
     <p class="publication-list__note">{{ include.note }}</p>
   {% endif %}
 
-  {% for group in site.data.publications %}
+  {% for group in publication_groups %}
     <section class="publication-list__group">
       <h2 class="publication-list__group-title">{{ group.title }}</h2>
       <ul class="publication-list__items">
