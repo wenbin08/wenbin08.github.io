@@ -19,7 +19,7 @@
             {% if paper.meta_html or paper["links"] %}
               <div class="publication-item__meta">
                 {% if paper.meta_html %}
-                  <span>{{ paper.meta_html }}</span>
+                  <span class="publication-item__meta-text">{{ paper.meta_html }}</span>
                 {% endif %}
                 {% if paper["links"] %}
                   {% for link in paper["links"] %}

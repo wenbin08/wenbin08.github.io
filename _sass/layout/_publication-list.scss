@@ -59,21 +59,22 @@
   color: var(--global-text-color);
 }
 
-.publication-item__meta {
+.publication-list .publication-item__meta,
+.publication-list .publication-item__meta-text {
   color: #c62828;
 }
 
-.publication-item__link {
+.publication-list .publication-item__meta .publication-item__link {
   margin-left: 0.35rem;
   color: #1d4ed8;
   text-decoration: none;
 }
 
-.publication-item__link:visited {
+.publication-list .publication-item__meta .publication-item__link:visited {
   color: #1d4ed8;
 }
 
-.publication-item__link:hover {
+.publication-list .publication-item__meta .publication-item__link:hover {
   color: #1e40af;
   text-decoration: underline;
 }
