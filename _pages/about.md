@@ -20,10 +20,9 @@ Currently, I am focusing on:
 
 
 
-<a name="publications"></a>
+<a id="selected-works"></a>
 
-## Publication
-<!-- (* denotes the co-first authors) -->
+## Selected Works ([Publication List](/publications/))
 
 ### Conference Papers
 - **CookAnything: A Framework for Flexible and Consistent Multi-Step Recipe Image Generation.**  

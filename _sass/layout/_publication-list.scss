@@ -1,0 +1,144 @@
+/* ==========================================================================
+   PUBLICATION LIST
+   ========================================================================== */
+
+.publication-list {
+  margin-top: 1.5rem;
+}
+
+.publication-list__note {
+  margin-bottom: 1rem;
+  color: var(--global-text-color-light);
+  font-size: $type-size-6;
+}
+
+.publication-list__group + .publication-list__group {
+  margin-top: 2rem;
+}
+
+.publication-list__group-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.publication-list__group-title {
+  margin: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+  font-family: $sans-serif-narrow;
+}
+
+.publication-list__group-meta {
+  margin: 0;
+  color: var(--global-text-color-light);
+  font-size: $type-size-6;
+}
+
+.publication-card {
+  margin-bottom: 1rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--global-border-color);
+  border-left: 4px solid var(--global-link-color);
+  border-radius: 12px;
+  background: linear-gradient(180deg, var(--global-code-background-color) 0%, var(--global-bg-color) 100%);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.03);
+}
+
+.publication-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.publication-card__badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(82, 173, 200, 0.12);
+  color: var(--global-link-color-hover);
+  font-size: $type-size-6;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.publication-card__year {
+  color: var(--global-text-color-light);
+  font-size: $type-size-6;
+}
+
+.publication-card__title {
+  margin: 0 0 0.4rem;
+  padding-bottom: 0;
+  border-bottom: none;
+  font-size: $type-size-5;
+  line-height: 1.4;
+}
+
+.publication-card__authors,
+.publication-card__venue,
+.publication-card__links {
+  margin: 0;
+}
+
+.publication-card__authors {
+  color: var(--global-text-color);
+}
+
+.publication-card__venue {
+  color: var(--global-text-color-light);
+}
+
+.publication-card__track {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.15rem 0.55rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  color: var(--global-text-color-light);
+  font-size: $type-size-7;
+  vertical-align: middle;
+}
+
+.publication-card__links {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.85rem;
+}
+
+.publication-card__link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  font-size: $type-size-6;
+  text-decoration: none;
+  transition: $global-transition;
+}
+
+.publication-card__link:hover {
+  border-color: var(--global-link-color);
+  color: var(--global-link-color-hover);
+  text-decoration: none;
+}
+
+@include breakpoint(max-width $small) {
+  .publication-card {
+    padding: 0.9rem 1rem;
+  }
+
+  .publication-list__group-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -43,9 +43,19 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<ul>
+{% for group in site.data.publications %}
+  {% for paper in group["items"] %}
+    <li>
+      <strong>{{ paper.title }}</strong><br />
+      {{ paper.authors_html }}<br />
+      {{ paper.venue_html }}
+      {% if paper.note %} ({{ paper.note }}){% endif %},
+      {{ paper.year }}.
+    </li>
+  {% endfor %}
+{% endfor %}
+</ul>
   
 Talks
 ======

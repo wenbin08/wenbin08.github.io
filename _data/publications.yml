@@ -1,0 +1,20 @@
+- title: "Conference Papers"
+  items:
+    - title: "CookAnything: A Framework for Flexible and Consistent Multi-Step Recipe Image Generation"
+      year: 2025
+      venue_short: "ACM MM 2025"
+      note: "Main Track"
+      authors_html: "Ruoxuan Zhang, <strong>Bin Wen</strong>, Hongxia Xie, Yi Yao, Songhan Zuo, Jian-Yu Jiang-Lin, Hong-Han Shuai, Wen-Huang Cheng."
+      venue_html: "<em>Proceedings of the ACM International Conference on Multimedia</em>."
+    - title: "RecipeGen: A Step-Aligned Multimodal Benchmark for Real-World Recipe Generation"
+      year: 2025
+      venue_short: "ACM MM 2025"
+      note: "Dataset Track"
+      authors_html: "Ruoxuan Zhang, Jidong Gao, <strong>Bin Wen</strong>, Hongxia Xie, Chenming Zhang, Hong-Han Shuai, Wen-Huang Cheng."
+      venue_html: "<em>Proceedings of the ACM International Conference on Multimedia</em>."
+    - title: "EmoArt: A Multidimensional Dataset for Emotion-Aware Artistic Generation"
+      year: 2025
+      venue_short: "ACM MM 2025"
+      note: "Dataset Track"
+      authors_html: "Cheng Zhang, Hongxia Xie, <strong>Bin Wen</strong>, Songhan Zuo, Ruoxuan Zhang, Wen-Huang Cheng."
+      venue_html: "<em>Proceedings of the ACM International Conference on Multimedia</em>."

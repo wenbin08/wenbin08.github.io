@@ -1,0 +1,40 @@
+<div class="publication-list">
+  {% if include.note %}
+    <p class="publication-list__note">{{ include.note }}</p>
+  {% endif %}
+
+  {% for group in site.data.publications %}
+    <section class="publication-list__group">
+      <div class="publication-list__group-header">
+        <h3 class="publication-list__group-title">{{ group.title }}</h3>
+        <p class="publication-list__group-meta">{{ group["items"] | size }} papers</p>
+      </div>
+
+      {% for paper in group["items"] %}
+        <article class="publication-card">
+          <div class="publication-card__header">
+            <span class="publication-card__badge">{{ paper.venue_short }}</span>
+            <span class="publication-card__year">{{ paper.year }}</span>
+          </div>
+
+          <h4 class="publication-card__title">{{ paper.title }}</h4>
+          <p class="publication-card__authors">{{ paper.authors_html }}</p>
+          <p class="publication-card__venue">
+            {{ paper.venue_html }}
+            {% if paper.note %}
+              <span class="publication-card__track">{{ paper.note }}</span>
+            {% endif %}
+          </p>
+
+          {% if paper["links"] %}
+            <div class="publication-card__links">
+              {% for link in paper["links"] %}
+                <a class="publication-card__link" href="{{ link.url }}">{{ link.label }}</a>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </section>
+  {% endfor %}
+</div>
