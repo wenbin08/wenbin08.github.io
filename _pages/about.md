@@ -41,6 +41,7 @@ Currently, I am focusing on:
 ## Honor
 - National Scholarship, 2024
 - Outstanding Student, Jilin University, 2023, 2024, 2025
+- Outstanding Graduate, Jilin University, 2026
 
 ## Teaching
 - Teaching Assistant for Introduction to Artificial Intelligence, Jilin Univeristy, 2025 Fall
