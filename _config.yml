@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Bin Wen（文彬）"
 title_separator          : "-"
 name                     : &name "Bin Wen（文彬）"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Academic homepage of Bin Wen"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://wenbin08.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,9 +24,9 @@ repository               : "wenbin08/wenbin08.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Bin Wen（文彬）"
+  name             : "Bin Wen<br>文彬"
   pronouns         : # example: "she/her"  
-  bio              : "A PHD student of LAMDA group at Nanjing University"
+  bio              : "Nanjing University<br>A Ph.D. Student of LAMDA Group"
   location         : "Changchun, China"
   employer         : "Jilin University"
   uri              : # URL

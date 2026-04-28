@@ -6,50 +6,53 @@ redirect_from:
   - /about.html
 ---
 
-<h1 class="page__title">About me</h1>
+<span class="anchor" id="about-me"></span>
+
+# <i class="fas fa-user"></i> About me
+
 I am currently a final-year undergraduate student at the College of Computer Science and Technology, [Jilin University](https://www.jlu.edu.cn/), advised by Professor [Hongxia Xie](https://ccst.jlu.edu.cn/info/1359/18959.htm). I have been admitted to pursue a Ph.D. degree in School of Intelligence Science and Technology, [Nanjing University](https://www.nju.edu.cn/), advised by Professor [Lan-Zhe Guo](https://www.lamda.nju.edu.cn/guolz/), in collaboration with the [Shanghai Innovation Institute (SII)](https://www.sii.edu.cn/main.htm).
 
-<!-- I am a first-year Ph.D. student of School of Intelligence Science and Technology in [Nanjing University](https://www.nju.edu.cn/), advised by Professor [Lan-Zhe Guo](https://www.lamda.nju.edu.cn/guolz/), in collaboration with the [Shanghai Innovation Institute (SII)](https://www.sii.edu.cn/main.htm) and a member of [LAMDA Group](https://www.lamda.nju.edu.cn/), led by professor [Zhi-Hua Zhou](https://www.lamda.nju.edu.cn/zhouzh/).
-I received my B.Sc. degree from College of Computer Science and Technology at [Jilin University](https://www.jlu.edu.cn/) in 2026, fortunately advised by Professor [Hongxia Xie](https://ccst.jlu.edu.cn/info/1359/18959.htm). In the same year, I was admitted to pursue a Ph.D. degree in [Nanjing University](https://www.nju.edu.cn/) without entrance examination. -->
 
-## Research Interests
-Currently, I am focusing on:
-- **Embodied Agent**
+<span class="anchor" id="research-interests"></span>
 
-<!-- ## News -->
+## <i class="fas fa-microscope"></i> Research Interests
 
+<div class="quote-accent">
+Currently, I am focusing on <span class="primary-gradient-text">Embodied Agent</span>.
+</div>
 
+<span class="anchor" id="publications"></span>
 
-<a id="selected-works"></a>
+## <i class="fas fa-file-alt"></i> Publications
 
-## Selected Works ([Publication List](/publications/))
+<div class="publication-tabs">
+  <input class="publication-tabs__radio" type="radio" name="publication-tabs" id="pub-selected" checked>
+  <input class="publication-tabs__radio" type="radio" name="publication-tabs" id="pub-all">
 
-{% include publication-list.html data_file="selected_publications" %}
+  <div class="publication-tabs__nav" role="tablist" aria-label="Publication views">
+    <label class="publication-tabs__tab publication-tabs__tab--selected" for="pub-selected" role="tab">Selected</label>
+    <label class="publication-tabs__tab publication-tabs__tab--all" for="pub-all" role="tab">All by Date</label>
+  </div>
 
+  <div class="publication-tabs__panel publication-tabs__panel--selected">
+    {% include publication-list.html data_file="selected_publications" flat=true %}
+  </div>
 
+  <div class="publication-tabs__panel publication-tabs__panel--all">
+    {% include publication-list.html data_file="publications" flat=true %}
+  </div>
+</div>
 
-<!-- ### Journal Papers
+<span class="anchor" id="honors"></span>
 
+## <i class="fas fa-award"></i> Honor
 
-### Other Papers -->
-
-<!-- - **Step Back to Leap Forward: Self-Backtracking for Boosting Reasoning of Language Models.** [[PDF]](https://www.arxiv.org/pdf/2502.04404) [[Webpage]](assets/self-backtracking/index.html)  
-**Xiao-Wen Yang**, Xuan-Yi Zhu, Wen-Da Wei, Ding-Chu Zhang, Jie-Jing Shao, Zhi Zhou, Lan-Zhe Guo, Yu-Feng Li.  
-*Preprint, 2025.* -->
-
-
-## Honor
 - National Scholarship, 2024
 - Outstanding Student, Jilin University, 2023, 2024, 2025
 - Outstanding Graduate, Jilin University, 2026
 
-## Teaching
-- Teaching Assistant for Introduction to Artificial Intelligence, Jilin Univeristy, 2025 Fall
+<span class="anchor" id="teaching"></span>
 
-<!-- ## Academic Service -->
-<!-- Reviewer for:
-- AAAI 2024, 2025
-- ICLR 2024, 2025
-- ICML 2024, 2025
-- NeurIPS 2023, 2024
-- ACL Rolling Review 2024 -->
+## <i class="fas fa-chalkboard-user"></i> Teaching
+
+- Teaching Assistant for Introduction to Artificial Intelligence, Jilin University, 2025 Fall

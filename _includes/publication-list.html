@@ -8,10 +8,9 @@
     <p class="publication-list__note">{{ include.note }}</p>
   {% endif %}
 
-  {% for group in publication_groups %}
-    <section class="publication-list__group">
-      <h2 class="publication-list__group-title">{{ group.title }}</h2>
-      <ul class="publication-list__items">
+  {% if include.flat %}
+    <ul class="publication-list__items">
+      {% for group in publication_groups %}
         {% for paper in group["items"] %}
           <li class="publication-item">
             <div class="publication-item__title">{{ paper.title }}</div>
@@ -35,7 +34,38 @@
             {% endif %}
           </li>
         {% endfor %}
-      </ul>
-    </section>
-  {% endfor %}
+      {% endfor %}
+    </ul>
+  {% else %}
+    {% for group in publication_groups %}
+      <section class="publication-list__group">
+        <h2 class="publication-list__group-title">{{ group.title }}</h2>
+        <ul class="publication-list__items">
+          {% for paper in group["items"] %}
+            <li class="publication-item">
+              <div class="publication-item__title">{{ paper.title }}</div>
+              <div class="publication-item__authors">{{ paper.authors_html }}</div>
+              {% if paper.venue_line_html %}
+                <div class="publication-item__venue">{{ paper.venue_line_html }}</div>
+              {% elsif paper.venue_html %}
+                <div class="publication-item__venue">{{ paper.venue_html }} {{ paper.year }}.</div>
+              {% endif %}
+              {% if paper.meta_html or paper["links"] %}
+                <div class="publication-item__meta">
+                  {% if paper.meta_html %}
+                    <span class="publication-item__meta-text">{{ paper.meta_html }}</span>
+                  {% endif %}
+                  {% if paper["links"] %}
+                    {% for link in paper["links"] %}
+                      <a class="publication-item__link" href="{{ link.url }}">[{{ link.label }}]</a>
+                    {% endfor %}
+                  {% endif %}
+                </div>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endfor %}
+  {% endif %}
 </div>
