@@ -13,25 +13,51 @@
       venue_html: "<em>Proceedings of the ACM International Conference on Multimedia</em>."
       venue_line_html: "In: <em>Proceedings of the ACM International Conference on Multimedia</em>, 2025."
       meta_html: "ACMMM 2025. CCF-A."
+      links:
+        - label: "Paper"
+          url: "https://arxiv.org/abs/2512.03540"
+        - label: "Project"
+          url: "https://zhangdaxia22.github.io/CookAnything/"
+        - label: "Code"
+          url: "https://github.com/zhangdaxia22/CookAnything"
     - title: "RecipeGen: A Step-Aligned Multimodal Benchmark for Real-World Recipe Generation"
       year: 2025
       authors_html: "Ruoxuan Zhang, Jidong Gao, <strong>Bin Wen</strong>, Hongxia Xie, Chenming Zhang, Hong-Han Shuai, Wen-Huang Cheng"
       venue_html: "<em>Proceedings of the ACM International Conference on Multimedia</em>."
       venue_line_html: "In: <em>Proceedings of the ACM International Conference on Multimedia</em>, 2025."
       meta_html: "ACMMM 2025. CCF-A."
+      links:
+        - label: "Paper"
+          url: "https://arxiv.org/abs/2506.06733"
+        - label: "Project"
+          url: "https://wenbin08.github.io/RecipeGen/"
+        - label: "Code"
+          url: "https://github.com/zhangdaxia22/Code_for_RecipeGen"
     - title: "EmoArt: A Multidimensional Dataset for Emotion-Aware Artistic Generation"
       year: 2025
       authors_html: "Cheng Zhang, Hongxia Xie, <strong>Bin Wen</strong>, Songhan Zuo, Ruoxuan Zhang, Wen-Huang Cheng"
       venue_html: "<em>Proceedings of the ACM International Conference on Multimedia</em>."
       venue_line_html: "In: <em>Proceedings of the ACM International Conference on Multimedia</em>, 2025."
       meta_html: "ACMMM 2025. CCF-A."
-    
+      links:
+        - label: "Paper"
+          url: "https://arxiv.org/abs/2506.03652"
+        - label: "Project"
+          url: "https://zhiliangzhang.github.io/EmoArt-130k/"
+        - label: "Code"
+          url: "https://github.com/ZHILIANGZHANG/EmoArt-130k/tree/main"
+
     - title: "MindPower: Enabling Theory-of-Mind Reasoning in VLM-based Embodied Agents"
       year: 2025
       authors_html: "Ruoxuan Zhang, Qiyun Zheng, Zhiyu Zhou, Ziqi Liao, Siyu Wu, Jian-Yu Jiang-Lin, <strong>Bin Wen</strong>, Hongxia Xie, Jianlong Fu, Wen-Huang Cheng"
       venue_html: "<em>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</em>."
       venue_line_html: "In: <em>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</em>, 2025."
       meta_html: "CVPR 2026. CCF-A."
+      links:
+        - label: "Paper"
+          url: "https://arxiv.org/abs/2511.23055"
+        - label: "Project"
+          url: "https://zhangdaxia22.github.io/MindPower/"
 
 - title: "Journal Papers"
   items:
@@ -41,3 +67,6 @@
       venue_html: "<em>Neurocomputing</em>."
       venue_line_html: "In: <em>Neurocomputing</em>, 2025."
       meta_html: "Neurocomputing. CCF-C."
+      links:
+        - label: "Paper"
+          url: "https://doi.org/10.1016/j.neucom.2025.130207"

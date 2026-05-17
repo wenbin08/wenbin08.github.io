@@ -6,3 +6,10 @@
       venue_html: "<em>Proceedings of the ACM International Conference on Multimedia</em>."
       venue_line_html: "In: <em>Proceedings of the ACM International Conference on Multimedia</em>, 2025."
       meta_html: "ACMMM 2025. CCF-A."
+      links:
+        - label: "Paper"
+          url: "https://arxiv.org/abs/2512.03540"
+        - label: "Project"
+          url: "https://zhangdaxia22.github.io/CookAnything/"
+        - label: "Code"
+          url: "https://github.com/zhangdaxia22/CookAnything"

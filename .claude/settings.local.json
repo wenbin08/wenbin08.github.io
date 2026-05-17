@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(curl -s \"https://api.github.com/search/repositories?q=RecipeGen+recipe+generation+benchmark&per_page=3\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); [print\\(f\\\\\"{r['full_name']}: {r['html_url']} - {r['description']}\\\\\"\\) for r in d.get\\('items',[]\\)]\")"
+    ]
+  }
+}
