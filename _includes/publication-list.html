@@ -27,7 +27,19 @@
                 {% endif %}
                 {% if paper["links"] %}
                   {% for link in paper["links"] %}
-                    <a class="publication-item__link" href="{{ link.url }}">[{{ link.label }}]</a>
+                    {% assign link_label = link.label | downcase %}
+                    <a class="publication-item__link publication-item__link--{{ link_label | slugify }}" href="{{ link.url }}" title="{{ link.label }}" aria-label="{{ link.label }}">
+                      {% if link_label == "paper" %}
+                        <i class="fas fa-file-lines" aria-hidden="true"></i>
+                      {% elsif link_label == "project" %}
+                        <i class="fas fa-diagram-project" aria-hidden="true"></i>
+                      {% elsif link_label == "code" %}
+                        <i class="fas fa-code" aria-hidden="true"></i>
+                      {% else %}
+                        <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                      {% endif %}
+                      <span class="sr-only">{{ link.label }}</span>
+                    </a>
                   {% endfor %}
                 {% endif %}
               </div>
@@ -57,7 +69,19 @@
                   {% endif %}
                   {% if paper["links"] %}
                     {% for link in paper["links"] %}
-                      <a class="publication-item__link" href="{{ link.url }}">[{{ link.label }}]</a>
+                      {% assign link_label = link.label | downcase %}
+                      <a class="publication-item__link publication-item__link--{{ link_label | slugify }}" href="{{ link.url }}" title="{{ link.label }}" aria-label="{{ link.label }}">
+                        {% if link_label == "paper" %}
+                          <i class="fas fa-file-lines" aria-hidden="true"></i>
+                        {% elsif link_label == "project" %}
+                          <i class="fas fa-diagram-project" aria-hidden="true"></i>
+                        {% elsif link_label == "code" %}
+                          <i class="fas fa-code" aria-hidden="true"></i>
+                        {% else %}
+                          <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                        {% endif %}
+                        <span class="sr-only">{{ link.label }}</span>
+                      </a>
                     {% endfor %}
                   {% endif %}
                 </div>
