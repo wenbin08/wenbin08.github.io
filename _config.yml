@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Bin Wen<br>文彬"
   pronouns         : # example: "she/her"  
-  bio              : "Nanjing University"
+  bio              : "Nanjing University<br>LAMDA Group"
   location         : "Shanghai"
-  employer         : "Nanjing University"
+  # employer         : "Nanjing University"
   uri              : # URL
   email            : 
 

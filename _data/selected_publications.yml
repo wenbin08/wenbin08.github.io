@@ -1,15 +1,15 @@
 - title: "Conference Papers"
   items:
-    - title: "CookAnything: A Framework for Flexible and Consistent Multi-Step Recipe Image Generation"
-      year: 2025
-      authors_html: "Ruoxuan Zhang, <strong>Bin Wen</strong>, Hongxia Xie, Yi Yao, Songhan Zuo, Jian-Yu Jiang-Lin, Hong-Han Shuai, Wen-Huang Cheng"
-      venue_html: "<em>Proceedings of the ACM International Conference on Multimedia</em>."
-      venue_line_html: "In: <em>Proceedings of the ACM International Conference on Multimedia</em>, 2025."
-      meta_html: "ACMMM 2025. CCF-A."
-      links:
-        - label: "Paper"
-          url: "https://arxiv.org/abs/2512.03540"
-        - label: "Project"
-          url: "https://zhangdaxia22.github.io/CookAnything/"
-        - label: "Code"
-          url: "https://github.com/zhangdaxia22/CookAnything"
+    # - title: "CookAnything: A Framework for Flexible and Consistent Multi-Step Recipe Image Generation"
+    #   year: 2025
+    #   authors_html: "Ruoxuan Zhang, <strong>Bin Wen</strong>, Hongxia Xie, Yi Yao, Songhan Zuo, Jian-Yu Jiang-Lin, Hong-Han Shuai, Wen-Huang Cheng"
+    #   venue_html: "<em>Proceedings of the ACM International Conference on Multimedia</em>."
+    #   venue_line_html: "In: <em>Proceedings of the ACM International Conference on Multimedia</em>, 2025."
+    #   meta_html: "ACMMM 2025. CCF-A."
+    #   links:
+    #     - label: "Paper"
+    #       url: "https://arxiv.org/abs/2512.03540"
+    #     - label: "Project"
+    #       url: "https://zhangdaxia22.github.io/CookAnything/"
+    #     - label: "Code"
+    #       url: "https://github.com/zhangdaxia22/CookAnything"
