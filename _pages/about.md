@@ -10,7 +10,7 @@ redirect_from:
 
 # <i class="fas fa-user"></i> About me
 
-I am a Ph.D. student at School of Intelligence Science and Technology, [Nanjing University](https://www.nju.edu.cn/), advised by Professor [Lan-Zhe Guo](https://www.lamda.nju.edu.cn/guolz/), and a member of the LAMDA Group led by Zhi-Hua Zhou. I also collaborate with the [Shanghai Innovation Institute (SII)](https://www.sii.edu.cn/main.htm).
+I am a Ph.D. student at School of Intelligence Science and Technology, [Nanjing University](https://www.nju.edu.cn/), advised by Professor [Lan-Zhe Guo](https://www.lamda.nju.edu.cn/guolz/), and a member of the LAMDA Group led by Professor Zhi-Hua Zhou. I also collaborate with the [Shanghai Innovation Institute (SII)](https://www.sii.edu.cn/main.htm).
 
 
 <span class="anchor" id="research-interests"></span>
