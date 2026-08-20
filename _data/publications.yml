@@ -75,7 +75,7 @@
   items:
     - title: "Design of UAV target detection network based on deep feature fusion and optimization with small targets in complex contexts"
       year: 2025
-      authors_html: "Jianzheng Liu*, <strong>Bin Wen*</strong> (co-first author), Jiayi Xiao, Minghui Sun"
+      authors_html: "Jianzheng Liu*, <strong>Bin Wen*</strong>, Jiayi Xiao, Minghui Sun"
       venue_html: "<em>Neurocomputing</em>."
       venue_line_html: "In: <em>Neurocomputing</em>, 2025."
       meta_html: "Neurocomputing. CCF-C."
