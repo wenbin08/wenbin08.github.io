@@ -247,6 +247,20 @@
     white-space: nowrap;
   }
 
+  .author__email {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+
+    i {
+      flex: 0 0 auto;
+    }
+
+    span {
+      font-size: 0.88rem;
+    }
+  }
+
   a {
     display: block;
     margin-bottom: 5px;

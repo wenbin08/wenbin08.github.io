@@ -18,7 +18,7 @@ I am a Ph.D. student at School of Intelligence Science and Technology, [Nanjing 
 ## <i class="fas fa-microscope"></i> Research Interests
 
 
-Currently, I am focusing on Embodied AI</span>.
+Currently, I am focusing on Embodied AI.
 
 
 <span class="anchor" id="publications"></span>
