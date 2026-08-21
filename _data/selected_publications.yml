@@ -3,9 +3,9 @@
     - title: "Aligning Progress and Feasibility: A Neuro-Symbolic Dual Memory Framework for Long-Horizon LLM Agents"
       year: 2026
       authors_html: "<strong>Bin Wen</strong>, Ruoxuan Zhang, Yang Chen, Hongxia Xie, Lan-Zhe Guo"
-      venue_html: "<em>Under Review</em>."
-      venue_line_html: "Under Review"
-      meta_html: ""
+      venue_html: "<em>Findings of the Association for Computational Linguistics: EMNLP 2026</em>."
+      venue_line_html: "Findings of the Association for Computational Linguistics: EMNLP 2026"
+      meta_html: "EMNLP 2026 Findings"
     - title: "DualWorldBench: Can Agents Plan Deliveries across Symbolic and Grounded Worlds?"
       year: 2026
       authors_html: "Yang Chen, <strong>Bin Wen</strong>, Danyang Peng, Hong-Jie You, Ziqiao Shang, Lan-Zhe Guo"
