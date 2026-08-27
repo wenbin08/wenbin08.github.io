@@ -1,0 +1,32 @@
+{% assign paper = include.paper %}
+<li class="publication-item">
+  {% if paper.meta_html and paper.meta_html != "" %}
+    <div class="publication-item__badges" aria-label="Publication details">
+      {% assign badges = paper.meta_html | split: "." %}
+      {% for badge in badges %}
+        {% assign badge_text = badge | strip %}
+        {% if badge_text != "" %}
+          {% assign badge_key = badge_text | downcase %}
+          <span class="publication-item__badge{% if badge_key contains 'ccf-' %} publication-item__badge--ranking{% endif %}">{{ badge_text }}</span>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <div class="publication-item__title">{{ paper.title }}</div>
+  <div class="publication-item__authors">{{ paper.authors_html }}</div>
+  {% if paper.venue_line_html %}
+    <div class="publication-item__venue">{{ paper.venue_line_html }}</div>
+  {% elsif paper.venue_html %}
+    <div class="publication-item__venue">In: {{ paper.venue_html }} {{ paper.year }}.</div>
+  {% endif %}
+
+  {% if paper["links"] %}
+    <div class="publication-item__links" aria-label="Publication links">
+      {% for link in paper["links"] %}
+        {% assign link_label = link.label | downcase %}
+        <a class="publication-item__link publication-item__link--{{ link_label | slugify }}" href="{{ link.url }}">[{% if link_label == "project" %}Project Page{% else %}{{ link.label }}{% endif %}]</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+</li>

@@ -12,39 +12,7 @@
     <ul class="publication-list__items">
       {% for group in publication_groups %}
         {% for paper in group["items"] %}
-          <li class="publication-item">
-            <div class="publication-item__title">{{ paper.title }}</div>
-            <div class="publication-item__authors">{{ paper.authors_html }}</div>
-            {% if paper.venue_line_html %}
-              <div class="publication-item__venue">{{ paper.venue_line_html }}</div>
-            {% elsif paper.venue_html %}
-              <div class="publication-item__venue">{{ paper.venue_html }} {{ paper.year }}.</div>
-            {% endif %}
-            {% if paper.meta_html or paper["links"] %}
-              <div class="publication-item__meta">
-                {% if paper.meta_html %}
-                  <span class="publication-item__meta-text">{{ paper.meta_html }}</span>
-                {% endif %}
-                {% if paper["links"] %}
-                  {% for link in paper["links"] %}
-                    {% assign link_label = link.label | downcase %}
-                    <a class="publication-item__link publication-item__link--{{ link_label | slugify }}" href="{{ link.url }}" title="{{ link.label }}" aria-label="{{ link.label }}">
-                      {% if link_label == "paper" %}
-                        <i class="fas fa-file-lines" aria-hidden="true"></i>
-                      {% elsif link_label == "project" %}
-                        <i class="fas fa-diagram-project" aria-hidden="true"></i>
-                      {% elsif link_label == "code" %}
-                        <i class="fas fa-code" aria-hidden="true"></i>
-                      {% else %}
-                        <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
-                      {% endif %}
-                      <span class="sr-only">{{ link.label }}</span>
-                    </a>
-                  {% endfor %}
-                {% endif %}
-              </div>
-            {% endif %}
-          </li>
+          {% include publication-item.html paper=paper %}
         {% endfor %}
       {% endfor %}
     </ul>
@@ -54,39 +22,7 @@
         <h2 class="publication-list__group-title">{{ group.title }}</h2>
         <ul class="publication-list__items">
           {% for paper in group["items"] %}
-            <li class="publication-item">
-              <div class="publication-item__title">{{ paper.title }}</div>
-              <div class="publication-item__authors">{{ paper.authors_html }}</div>
-              {% if paper.venue_line_html %}
-                <div class="publication-item__venue">{{ paper.venue_line_html }}</div>
-              {% elsif paper.venue_html %}
-                <div class="publication-item__venue">{{ paper.venue_html }} {{ paper.year }}.</div>
-              {% endif %}
-              {% if paper.meta_html or paper["links"] %}
-                <div class="publication-item__meta">
-                  {% if paper.meta_html %}
-                    <span class="publication-item__meta-text">{{ paper.meta_html }}</span>
-                  {% endif %}
-                  {% if paper["links"] %}
-                    {% for link in paper["links"] %}
-                      {% assign link_label = link.label | downcase %}
-                      <a class="publication-item__link publication-item__link--{{ link_label | slugify }}" href="{{ link.url }}" title="{{ link.label }}" aria-label="{{ link.label }}">
-                        {% if link_label == "paper" %}
-                          <i class="fas fa-file-lines" aria-hidden="true"></i>
-                        {% elsif link_label == "project" %}
-                          <i class="fas fa-diagram-project" aria-hidden="true"></i>
-                        {% elsif link_label == "code" %}
-                          <i class="fas fa-code" aria-hidden="true"></i>
-                        {% else %}
-                          <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
-                        {% endif %}
-                        <span class="sr-only">{{ link.label }}</span>
-                      </a>
-                    {% endfor %}
-                  {% endif %}
-                </div>
-              {% endif %}
-            </li>
+            {% include publication-item.html paper=paper %}
           {% endfor %}
         </ul>
       </section>

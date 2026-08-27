@@ -262,6 +262,40 @@ body {
   color: #fff;
 }
 
+/* Keep publication entries lightweight and consistent with the publication page. */
+.publication-tabs .publication-item {
+  margin: 0 0 2rem;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  transform: none;
+}
+
+.publication-tabs .publication-item::before,
+.publication-tabs .publication-item:hover::before {
+  display: none;
+}
+
+.publication-tabs .publication-item:hover {
+  border-color: transparent;
+  box-shadow: none;
+  transform: none;
+}
+
+.publication-tabs .publication-item__badges {
+  margin-bottom: 0.65rem;
+}
+
+.publication-tabs .publication-item__links {
+  color: #637594;
+}
+
+.publication-tabs .publication-list .publication-item__link:hover {
+  color: #174ea6;
+}
+
 .sidebar {
   overflow-wrap: anywhere;
 
