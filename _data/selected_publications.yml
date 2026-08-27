@@ -6,3 +6,8 @@
       venue_html: "<em>Findings of the Association for Computational Linguistics: EMNLP 2026</em>."
       venue_line_html: "In: Findings of the Association for Computational Linguistics: EMNLP 2026"
       meta_html: "EMNLP 2026"
+      links:
+        - label: "Project"
+          url: "https://wenbin08.github.io/Aligning-Progress-and-Feasibility/"
+        - label: "Code"
+          url: "https://github.com/LAMDA-NeSy/DualMemory"
