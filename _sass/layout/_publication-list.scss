@@ -30,10 +30,10 @@
 }
 
 .publication-item {
-  margin: 0 0 2rem;
-  padding: 1.2rem 1.35rem 1.3rem;
+  margin: 0 0 1.25rem;
+  padding: 1.05rem 1.3rem 1.15rem;
   border: 1px solid #d7dee9;
-  border-radius: 8px;
+  border-radius: 16px;
   background: var(--global-bg-color);
   box-shadow: 0 3px 12px rgba(30, 64, 175, 0.045);
 }
@@ -152,7 +152,7 @@ html[data-theme="dark"] {
 
 @include breakpoint(max-width $small) {
   .publication-item {
-    margin-bottom: 1.65rem;
+    margin-bottom: 1rem;
   }
 
   .publication-item__badge {
