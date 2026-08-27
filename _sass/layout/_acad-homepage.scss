@@ -265,23 +265,26 @@ body {
 /* Keep publication entries lightweight and consistent with the publication page. */
 .publication-tabs .publication-item {
   margin: 0 0 2rem;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
-  box-shadow: none;
+  padding: 1.2rem 1.35rem 1.3rem;
+  border: 1px solid #d7dee9;
+  border-radius: 8px;
+  background: var(--global-bg-color);
+  box-shadow: 0 3px 12px rgba(30, 64, 175, 0.045);
   transform: none;
 }
 
 .publication-tabs .publication-item::before,
-.publication-tabs .publication-item:hover::before {
-  display: none;
-}
+.publication-tabs .publication-item:hover::before { display: none; }
 
 .publication-tabs .publication-item:hover {
-  border-color: transparent;
-  box-shadow: none;
+  border-color: #c1ccdc;
+  box-shadow: 0 5px 16px rgba(30, 64, 175, 0.08);
   transform: none;
+}
+
+html[data-theme="dark"] .publication-tabs .publication-item {
+  border-color: #46546b;
+  box-shadow: none;
 }
 
 .publication-tabs .publication-item__badges {

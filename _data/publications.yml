@@ -12,7 +12,12 @@
       authors_html: "<strong>Bin Wen</strong>, Ruoxuan Zhang, Yang Chen, Hongxia Xie, Lan-Zhe Guo"
       venue_html: "<em>Findings of the Association for Computational Linguistics: EMNLP 2026</em>."
       venue_line_html: "In: Findings of the Association for Computational Linguistics: EMNLP 2026"
-      meta_html: "EMNLP 2026 Findings"
+      meta_html: "EMNLP 2026"
+      links:
+        - label: "Project"
+          url: "https://wenbin08.github.io/Aligning-Progress-and-Feasibility/"
+        - label: "Code"
+          url: "https://github.com/LAMDA-NeSy/DualMemory"
     - title: "DualWorldBench: Can Agents Plan Deliveries across Symbolic and Grounded Worlds?"
       year: 2026
       authors_html: "Yang Chen*, <strong>Bin Wen*</strong>, Danyang Peng, Hong-Jie You, Ziqiao Shang, Lan-Zhe Guo"
