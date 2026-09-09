@@ -1,0 +1,8 @@
+# ============================================================
+# 服务器部署专用配置
+# 仅用于构建「学校服务器版本」，不影响 GitHub Pages
+# 用法: jekyll build --config _config.yml,_config_server.yml
+# ============================================================
+
+url     : "https://www.lamda.nju.edu.cn"
+baseurl : "/wenb"
