@@ -29,16 +29,53 @@ foreach ($f in @("_site\index.html", "_site\assets\css\main.css")) {
 }
 Write-Host "构建完成并通过校验 → _site/ 目录" -ForegroundColor Green
 
-# 4. 上传：_site/. 表示「目录内的全部内容」，会原样铺到 $ServerPath 下
+# 4. 上传：逐文件明确上传（先建目录再传文件，避开 sftp put -r 通配符的平铺 bug）
 #    服务器上 /D:/personal_web/wenb/ 里应直接看到 index.html、assets/ 等
-Write-Host "正在上传到服务器（会提示输入密码）..." -ForegroundColor Cyan
-scp -r "_site/." "${ServerUser}@${ServerHost}:${ServerPath}"
+Write-Host "正在生成上传清单..." -ForegroundColor Cyan
+$siteRoot = (Resolve-Path "_site").Path
+$allDirs  = Get-ChildItem -Recurse -Directory "_site"
+$allFiles = Get-ChildItem -Recurse -File "_site"
 
-if ($LASTEXITCODE -ne 0) {
-    Write-Host "上传失败，请把上面的报错发给我排查" -ForegroundColor Red
+$lines = New-Object System.Collections.Generic.List[string]
+$lines.Add("lcd _site")
+$lines.Add("cd $ServerPath")
+foreach ($d in $allDirs) {
+    $rel = $d.FullName.Substring($siteRoot.Length + 1).Replace('\','/')
+    $lines.Add("-mkdir `"$rel`"")   # - 前缀：目录已存在则忽略错误
+}
+foreach ($f in $allFiles) {
+    $rel = $f.FullName.Substring($siteRoot.Length + 1).Replace('\','/')
+    $lines.Add("put `"$rel`" `"$rel`"")
+}
+$lines.Add("exit")
+$sftpCmds = $lines -join "`n"
+Write-Host ("共 {0} 个文件、{1} 个目录待上传" -f $allFiles.Count, $allDirs.Count) -ForegroundColor Cyan
+
+Write-Host "正在上传到服务器（会提示输入密码）..." -ForegroundColor Cyan
+
+$prevEAP = $ErrorActionPreference
+$ErrorActionPreference = "Continue"
+$output = ($sftpCmds | sftp "${ServerUser}@${ServerHost}" 2>&1 | Out-String)
+$ErrorActionPreference = $prevEAP
+
+# "Couldn't create directory" 是目录已存在的正常提示，不算错误（put 是否成功由下面的计数校验）
+$realErrors = $output -split "`r?`n" | Where-Object {
+    $_ -match "Permission denied|Connection closed|No such file|Couldn't" -and
+    $_ -notmatch "Couldn't create directory"
+}
+if ($realErrors) {
+    Write-Host $output
+    Write-Host "上传失败，请把上面的输出发给我排查" -ForegroundColor Red
     Write-Host "常见原因：密码错误 / 无写入权限 / 路径不存在" -ForegroundColor Yellow
     exit 1
 }
+$uploaded = ([regex]::Matches($output, "Uploading")).Count
+if ($uploaded -lt $allFiles.Count) {
+    Write-Host $output
+    Write-Host ("只上传了 {0}/{1} 个文件，请把输出发给我排查" -f $uploaded, $allFiles.Count) -ForegroundColor Red
+    exit 1
+}
+Write-Host ("已上传 {0}/{1} 个文件" -f $uploaded, $allFiles.Count) -ForegroundColor Green
 
 Write-Host ""
 Write-Host "部署完成！请打开 https://www.lamda.nju.edu.cn/wenb/ 验证" -ForegroundColor Green

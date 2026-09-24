@@ -15,6 +15,14 @@
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
+<!-- GitHub Pages 访问者自动跳转到服务器主页（保留路径，深链接可用） -->
+<script>
+  if (location.hostname.endsWith('github.io')) {
+    location.replace('https://www.lamda.nju.edu.cn/wenb/' +
+      location.pathname.replace(/^\//, '') + location.search + location.hash);
+  }
+</script>
+
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 

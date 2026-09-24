@@ -10,7 +10,7 @@ redirect_from:
 
 # <i class="fas fa-user"></i> About me
 
-I am a Ph.D. student at School of Intelligence Science and Technology, [Nanjing University](https://www.nju.edu.cn/), advised by Professor [Lan-Zhe Guo](https://www.lamda.nju.edu.cn/guolz/), and a member of the LAMDA Group led by Professor [Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/). I also collaborate with the [Shanghai Innovation Institute (SII)](https://www.sii.edu.cn/main.htm).
+I am a Ph.D. student at School of Intelligence Science and Technology, [Nanjing University](https://www.nju.edu.cn/), advised by Professor [Lan-Zhe Guo (郭兰哲)](https://www.lamda.nju.edu.cn/guolz/), and a member of the LAMDA Group led by Professor [Zhi-Hua Zhou (周志华)](https://cs.nju.edu.cn/zhouzh/). I also collaborate with the [Shanghai Innovation Institute (上海创智学院)](https://www.sii.edu.cn/main.htm), advised by Professor [Hanbo Zhang (张翰博)](https://zhanghanbo.github.io/).
 
 
 <span class="anchor" id="research-interests"></span>
@@ -18,7 +18,7 @@ I am a Ph.D. student at School of Intelligence Science and Technology, [Nanjing 
 ## <i class="fas fa-microscope"></i> Research Interests
 
 
-Currently, I am focusing on Embodied AI.
+Currently, I am focusing on Embodied AI and Robotics.
 
 
 <span class="anchor" id="publications"></span>
